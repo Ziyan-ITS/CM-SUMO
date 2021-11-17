@@ -1,0 +1,467 @@
+<routes>
+        <vType id="CAV" accel="2" decel="4" sigma="0.5" length="4.5" minGap="2.5" maxSpeed="20" guiShape="passenger" carFollowModel="Wiedemann" />
+        <vType id="HV" accel="2" decel="4" sigma="0.5" length="4.5" minGap="3" maxSpeed="20" carFollowModel="Wiedemann"/>
+
+        <route edges="gneE0 gneE2 gneE2.32" color="yellow" id="route_0"/>
+        <route edges="gneE1 gneE2 gneE2.32" color="yellow" id="route_1"/>
+    <vehicle id="ramp_0" type="HV" route="route_1" depart="1.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_1" type="CAV" route="route_1" depart="4.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_2" type="CAV" route="route_0" depart="5.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_3" type="HV" route="route_0" depart="10.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_4" type="CAV" route="route_0" depart="16.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_5" type="CAV" route="route_1" depart="17.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_6" type="CAV" route="route_0" depart="18.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_7" type="CAV" route="route_0" depart="20.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_8" type="HV" route="route_1" depart="22.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_9" type="HV" route="route_1" depart="24.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_10" type="CAV" route="route_0" depart="24.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_11" type="CAV" route="route_0" depart="25.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_12" type="CAV" route="route_0" depart="26.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_13" type="CAV" route="route_1" depart="28.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_14" type="HV" route="route_0" depart="29.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_15" type="CAV" route="route_1" depart="34.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_16" type="HV" route="route_0" depart="37.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_17" type="HV" route="route_1" depart="37.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_18" type="HV" route="route_1" depart="43.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_19" type="CAV" route="route_1" depart="44.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_20" type="CAV" route="route_0" depart="45.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_21" type="HV" route="route_1" depart="46.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_22" type="CAV" route="route_1" depart="47.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_23" type="CAV" route="route_0" depart="49.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_24" type="HV" route="route_0" depart="50.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_25" type="HV" route="route_1" depart="50.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_26" type="HV" route="route_0" depart="51.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_27" type="CAV" route="route_1" depart="51.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_28" type="HV" route="route_1" depart="61.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_29" type="HV" route="route_0" depart="62.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_30" type="CAV" route="route_1" depart="63.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_31" type="CAV" route="route_0" depart="65.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_32" type="CAV" route="route_0" depart="76.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_33" type="CAV" route="route_1" depart="80.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_34" type="CAV" route="route_0" depart="81.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_35" type="CAV" route="route_0" depart="88.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_36" type="CAV" route="route_0" depart="89.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_37" type="HV" route="route_1" depart="93.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_38" type="CAV" route="route_1" depart="98.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_39" type="HV" route="route_0" depart="101.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_40" type="CAV" route="route_1" depart="101.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_41" type="CAV" route="route_0" depart="102.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_42" type="CAV" route="route_0" depart="106.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_43" type="CAV" route="route_1" depart="109.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_44" type="HV" route="route_1" depart="116.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_45" type="HV" route="route_1" depart="117.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_46" type="CAV" route="route_1" depart="121.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_47" type="CAV" route="route_0" depart="124.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_48" type="CAV" route="route_0" depart="128.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_49" type="CAV" route="route_1" depart="129.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_50" type="CAV" route="route_1" depart="133.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_51" type="CAV" route="route_1" depart="144.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_52" type="CAV" route="route_1" depart="145.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_53" type="HV" route="route_1" depart="147.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_54" type="CAV" route="route_0" depart="148.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_55" type="HV" route="route_0" depart="150.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_56" type="HV" route="route_1" depart="151.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_57" type="CAV" route="route_0" depart="156.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_58" type="CAV" route="route_0" depart="157.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_59" type="HV" route="route_1" depart="161.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_60" type="CAV" route="route_0" depart="166.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_61" type="HV" route="route_1" depart="170.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_62" type="CAV" route="route_0" depart="174.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_63" type="HV" route="route_0" depart="175.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_64" type="CAV" route="route_1" depart="177.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_65" type="CAV" route="route_1" depart="179.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_66" type="HV" route="route_1" depart="181.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_67" type="CAV" route="route_1" depart="182.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_68" type="HV" route="route_1" depart="189.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_69" type="CAV" route="route_0" depart="192.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_70" type="CAV" route="route_0" depart="197.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_71" type="HV" route="route_0" depart="198.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_72" type="HV" route="route_1" depart="200.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_73" type="CAV" route="route_0" depart="201.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_74" type="HV" route="route_1" depart="203.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_75" type="HV" route="route_1" depart="206.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_76" type="CAV" route="route_1" depart="210.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_77" type="HV" route="route_1" depart="212.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_78" type="HV" route="route_1" depart="214.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_79" type="CAV" route="route_1" depart="215.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_80" type="HV" route="route_0" depart="221.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_81" type="HV" route="route_1" depart="222.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_82" type="HV" route="route_0" depart="224.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_83" type="CAV" route="route_1" depart="224.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_84" type="CAV" route="route_0" depart="225.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_85" type="HV" route="route_0" depart="228.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_86" type="HV" route="route_1" depart="234.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_87" type="CAV" route="route_0" depart="239.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_88" type="CAV" route="route_0" depart="244.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_89" type="HV" route="route_1" depart="247.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_90" type="CAV" route="route_0" depart="249.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_91" type="HV" route="route_0" depart="252.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_92" type="HV" route="route_1" depart="256.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_93" type="HV" route="route_1" depart="257.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_94" type="CAV" route="route_1" depart="263.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_95" type="HV" route="route_0" depart="267.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_96" type="CAV" route="route_0" depart="270.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_97" type="CAV" route="route_0" depart="273.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_98" type="CAV" route="route_0" depart="276.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_99" type="CAV" route="route_0" depart="282.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_100" type="HV" route="route_1" depart="282.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_101" type="HV" route="route_0" depart="286.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_102" type="CAV" route="route_0" depart="287.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_103" type="CAV" route="route_0" depart="289.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_104" type="CAV" route="route_0" depart="294.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_105" type="CAV" route="route_0" depart="295.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_106" type="CAV" route="route_0" depart="298.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_107" type="CAV" route="route_0" depart="299.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_108" type="CAV" route="route_0" depart="300.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_109" type="CAV" route="route_1" depart="302.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_110" type="CAV" route="route_1" depart="303.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_111" type="CAV" route="route_0" depart="304.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_112" type="CAV" route="route_1" depart="304.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_113" type="HV" route="route_0" depart="307.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_114" type="HV" route="route_0" depart="309.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_115" type="HV" route="route_1" depart="312.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_116" type="CAV" route="route_1" depart="313.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_117" type="CAV" route="route_0" depart="314.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_118" type="CAV" route="route_0" depart="315.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_119" type="CAV" route="route_1" depart="316.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_120" type="HV" route="route_0" depart="319.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_121" type="CAV" route="route_1" depart="323.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_122" type="CAV" route="route_0" depart="325.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_123" type="HV" route="route_0" depart="328.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_124" type="CAV" route="route_0" depart="330.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_125" type="CAV" route="route_0" depart="331.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_126" type="CAV" route="route_0" depart="334.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_127" type="CAV" route="route_0" depart="336.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_128" type="HV" route="route_0" depart="337.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_129" type="CAV" route="route_0" depart="342.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_130" type="HV" route="route_1" depart="342.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_131" type="HV" route="route_0" depart="345.500000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_132" type="CAV" route="route_0" depart="348.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_133" type="CAV" route="route_0" depart="352.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_134" type="HV" route="route_0" depart="353.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_135" type="HV" route="route_1" depart="354.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_136" type="HV" route="route_1" depart="360.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_137" type="CAV" route="route_0" depart="365.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_138" type="HV" route="route_0" depart="370.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_139" type="HV" route="route_0" depart="372.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_140" type="CAV" route="route_0" depart="374.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_141" type="CAV" route="route_0" depart="375.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_142" type="HV" route="route_0" depart="376.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_143" type="CAV" route="route_1" depart="379.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_144" type="CAV" route="route_1" depart="381.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_145" type="CAV" route="route_1" depart="384.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_146" type="CAV" route="route_1" depart="387.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_147" type="CAV" route="route_0" depart="392.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_148" type="HV" route="route_1" depart="393.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_149" type="CAV" route="route_0" depart="399.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_150" type="HV" route="route_0" depart="402.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_151" type="CAV" route="route_0" depart="403.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_152" type="HV" route="route_1" depart="406.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_153" type="HV" route="route_0" depart="411.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_154" type="HV" route="route_0" depart="412.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_155" type="CAV" route="route_1" depart="416.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_156" type="HV" route="route_0" depart="416.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_157" type="CAV" route="route_1" depart="418.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_158" type="HV" route="route_1" depart="422.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_159" type="CAV" route="route_1" depart="427.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_160" type="CAV" route="route_1" depart="428.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_161" type="HV" route="route_1" depart="429.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_162" type="HV" route="route_1" depart="430.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_163" type="CAV" route="route_1" depart="431.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_164" type="CAV" route="route_0" depart="433.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_165" type="CAV" route="route_0" depart="438.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_166" type="CAV" route="route_1" depart="442.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_167" type="CAV" route="route_0" depart="442.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_168" type="HV" route="route_0" depart="449.500000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_169" type="CAV" route="route_0" depart="450.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_170" type="CAV" route="route_0" depart="462.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_171" type="HV" route="route_1" depart="462.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_172" type="CAV" route="route_1" depart="463.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_173" type="CAV" route="route_0" depart="470.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_174" type="HV" route="route_0" depart="473.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_175" type="HV" route="route_0" depart="481.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_176" type="CAV" route="route_0" depart="482.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_177" type="HV" route="route_1" depart="483.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_178" type="HV" route="route_0" depart="485.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_179" type="CAV" route="route_0" depart="486.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_180" type="CAV" route="route_0" depart="488.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_181" type="CAV" route="route_1" depart="489.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_182" type="CAV" route="route_1" depart="490.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_183" type="CAV" route="route_0" depart="490.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_184" type="CAV" route="route_1" depart="492.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_185" type="HV" route="route_0" depart="505.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_186" type="CAV" route="route_0" depart="507.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_187" type="CAV" route="route_0" depart="508.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_188" type="CAV" route="route_1" depart="509.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_189" type="HV" route="route_0" depart="511.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_190" type="CAV" route="route_1" depart="512.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_191" type="HV" route="route_1" depart="513.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_192" type="CAV" route="route_0" depart="513.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_193" type="HV" route="route_0" depart="518.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_194" type="CAV" route="route_0" depart="520.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_195" type="HV" route="route_1" depart="524.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_196" type="HV" route="route_1" depart="530.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_197" type="CAV" route="route_0" depart="531.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_198" type="HV" route="route_0" depart="541.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_199" type="HV" route="route_0" depart="546.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_200" type="CAV" route="route_1" depart="547.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_201" type="CAV" route="route_0" depart="551.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_202" type="HV" route="route_0" depart="554.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_203" type="CAV" route="route_1" depart="557.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_204" type="CAV" route="route_1" depart="558.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_205" type="CAV" route="route_1" depart="570.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_206" type="CAV" route="route_0" depart="574.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_207" type="CAV" route="route_1" depart="578.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_208" type="CAV" route="route_0" depart="581.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_209" type="CAV" route="route_0" depart="585.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_210" type="CAV" route="route_0" depart="588.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_211" type="HV" route="route_1" depart="588.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_212" type="CAV" route="route_0" depart="594.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_213" type="CAV" route="route_0" depart="595.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_214" type="CAV" route="route_1" depart="596.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_215" type="CAV" route="route_1" depart="603.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_216" type="CAV" route="route_0" depart="605.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_217" type="CAV" route="route_0" depart="606.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_218" type="HV" route="route_0" depart="607.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_219" type="HV" route="route_0" depart="609.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_220" type="CAV" route="route_0" depart="611.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_221" type="CAV" route="route_1" depart="622.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_222" type="HV" route="route_0" depart="623.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_223" type="HV" route="route_0" depart="625.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_224" type="CAV" route="route_0" depart="626.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_225" type="HV" route="route_0" depart="631.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_226" type="CAV" route="route_0" depart="634.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_227" type="CAV" route="route_0" depart="636.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_228" type="HV" route="route_0" depart="637.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_229" type="HV" route="route_1" depart="637.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_230" type="CAV" route="route_0" depart="642.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_231" type="CAV" route="route_0" depart="643.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_232" type="CAV" route="route_1" depart="645.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_233" type="HV" route="route_0" depart="647.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_234" type="CAV" route="route_0" depart="649.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_235" type="CAV" route="route_0" depart="651.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_236" type="HV" route="route_0" depart="655.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_237" type="CAV" route="route_1" depart="656.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_238" type="HV" route="route_0" depart="658.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_239" type="HV" route="route_1" depart="659.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_240" type="HV" route="route_1" depart="660.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_241" type="CAV" route="route_0" depart="660.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_242" type="HV" route="route_0" depart="666.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_243" type="CAV" route="route_1" depart="668.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_244" type="CAV" route="route_0" depart="677.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_245" type="HV" route="route_1" depart="684.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_246" type="HV" route="route_0" depart="685.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_247" type="HV" route="route_0" depart="687.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_248" type="CAV" route="route_1" depart="690.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_249" type="CAV" route="route_1" depart="691.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_250" type="CAV" route="route_0" depart="691.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_251" type="CAV" route="route_0" depart="692.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_252" type="HV" route="route_0" depart="701.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_253" type="HV" route="route_1" depart="705.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_254" type="CAV" route="route_1" depart="709.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_255" type="CAV" route="route_1" depart="710.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_256" type="HV" route="route_0" depart="711.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_257" type="HV" route="route_0" depart="713.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_258" type="HV" route="route_0" depart="724.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_259" type="HV" route="route_1" depart="725.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_260" type="CAV" route="route_0" depart="726.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_261" type="CAV" route="route_0" depart="727.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_262" type="HV" route="route_1" depart="732.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_263" type="HV" route="route_0" depart="733.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_264" type="HV" route="route_1" depart="736.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_265" type="CAV" route="route_0" depart="738.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_266" type="CAV" route="route_0" depart="741.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_267" type="CAV" route="route_1" depart="748.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_268" type="CAV" route="route_1" depart="749.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_269" type="HV" route="route_1" depart="750.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_270" type="HV" route="route_1" depart="752.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_271" type="CAV" route="route_1" depart="753.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_272" type="HV" route="route_0" depart="758.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_273" type="CAV" route="route_0" depart="759.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_274" type="CAV" route="route_0" depart="762.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_275" type="HV" route="route_1" depart="773.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_276" type="CAV" route="route_0" depart="774.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_277" type="HV" route="route_1" depart="774.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_278" type="CAV" route="route_0" depart="778.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_279" type="HV" route="route_0" depart="786.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_280" type="CAV" route="route_0" depart="787.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_281" type="HV" route="route_1" depart="791.300000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_282" type="CAV" route="route_0" depart="792.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_283" type="CAV" route="route_1" depart="794.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_284" type="HV" route="route_1" depart="795.500000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_285" type="CAV" route="route_0" depart="796.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_286" type="HV" route="route_1" depart="797.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_287" type="HV" route="route_1" depart="798.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_288" type="CAV" route="route_0" depart="801.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_289" type="HV" route="route_0" depart="805.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_290" type="HV" route="route_0" depart="809.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_291" type="CAV" route="route_0" depart="814.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_292" type="CAV" route="route_0" depart="817.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_293" type="CAV" route="route_1" depart="818.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_294" type="CAV" route="route_1" depart="821.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_295" type="CAV" route="route_1" depart="823.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_296" type="CAV" route="route_1" depart="828.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_297" type="CAV" route="route_1" depart="831.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_298" type="CAV" route="route_0" depart="835.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_299" type="HV" route="route_1" depart="843.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_300" type="CAV" route="route_0" depart="844.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_301" type="HV" route="route_0" depart="845.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_302" type="HV" route="route_0" depart="852.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_303" type="CAV" route="route_1" depart="855.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_304" type="CAV" route="route_1" depart="859.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_305" type="CAV" route="route_1" depart="862.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_306" type="CAV" route="route_0" depart="863.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_307" type="HV" route="route_1" depart="863.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_308" type="CAV" route="route_0" depart="867.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_309" type="HV" route="route_1" depart="867.900000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_310" type="CAV" route="route_0" depart="868.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_311" type="CAV" route="route_0" depart="869.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_312" type="HV" route="route_0" depart="873.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_313" type="CAV" route="route_1" depart="880.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_314" type="CAV" route="route_0" depart="881.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_315" type="CAV" route="route_1" depart="881.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_316" type="CAV" route="route_0" depart="884.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_317" type="HV" route="route_1" depart="889.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_318" type="HV" route="route_1" depart="890.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_319" type="CAV" route="route_1" depart="893.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_320" type="CAV" route="route_0" depart="894.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_321" type="HV" route="route_1" depart="894.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_322" type="CAV" route="route_0" depart="898.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_323" type="CAV" route="route_1" depart="900.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_324" type="CAV" route="route_0" depart="901.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_325" type="HV" route="route_0" depart="902.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_326" type="CAV" route="route_1" depart="903.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_327" type="CAV" route="route_1" depart="904.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_328" type="HV" route="route_0" depart="905.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_329" type="CAV" route="route_0" depart="908.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_330" type="CAV" route="route_1" depart="909.800000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_331" type="CAV" route="route_0" depart="919.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_332" type="CAV" route="route_0" depart="922.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_333" type="CAV" route="route_1" depart="923.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_334" type="CAV" route="route_0" depart="925.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_335" type="CAV" route="route_0" depart="933.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_336" type="CAV" route="route_1" depart="935.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_337" type="CAV" route="route_0" depart="940.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_338" type="HV" route="route_1" depart="940.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_339" type="HV" route="route_0" depart="947.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_340" type="HV" route="route_0" depart="954.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_341" type="HV" route="route_1" depart="960.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_342" type="HV" route="route_1" depart="961.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_343" type="CAV" route="route_0" depart="964.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_344" type="CAV" route="route_0" depart="966.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_345" type="CAV" route="route_1" depart="966.700000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_346" type="HV" route="route_0" depart="968.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_347" type="HV" route="route_0" depart="969.400000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_348" type="CAV" route="route_0" depart="970.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_349" type="HV" route="route_1" depart="973.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_350" type="HV" route="route_0" depart="973.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_351" type="CAV" route="route_0" depart="974.100000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_352" type="HV" route="route_0" depart="975.700000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_353" type="CAV" route="route_0" depart="977.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_354" type="CAV" route="route_1" depart="981.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_355" type="HV" route="route_0" depart="985.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_356" type="CAV" route="route_0" depart="988.900000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_357" type="HV" route="route_0" depart="990.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_358" type="HV" route="route_0" depart="993.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_359" type="CAV" route="route_0" depart="994.600000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_360" type="HV" route="route_0" depart="995.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_361" type="HV" route="route_1" depart="997.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_362" type="CAV" route="route_0" depart="998.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_363" type="HV" route="route_0" depart="1001.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_364" type="CAV" route="route_1" depart="1008.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_365" type="HV" route="route_0" depart="1009.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_366" type="CAV" route="route_1" depart="1013.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_367" type="HV" route="route_0" depart="1013.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_368" type="HV" route="route_1" depart="1014.200000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_369" type="CAV" route="route_0" depart="1015.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_370" type="CAV" route="route_0" depart="1017.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_371" type="CAV" route="route_0" depart="1018.400000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_372" type="CAV" route="route_0" depart="1022.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_373" type="HV" route="route_1" depart="1030.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_374" type="CAV" route="route_1" depart="1031.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_375" type="CAV" route="route_0" depart="1034.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_376" type="HV" route="route_1" depart="1035.100000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_377" type="CAV" route="route_0" depart="1046.300000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_378" type="CAV" route="route_0" depart="1050.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_379" type="CAV" route="route_0" depart="1053.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_380" type="HV" route="route_1" depart="1055.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_381" type="CAV" route="route_0" depart="1056.200000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_382" type="CAV" route="route_0" depart="1059.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_383" type="HV" route="route_1" depart="1059.200000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_384" type="CAV" route="route_1" depart="1061.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_385" type="HV" route="route_0" depart="1061.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_386" type="HV" route="route_0" depart="1062.800000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_387" type="CAV" route="route_0" depart="1065.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_388" type="CAV" route="route_1" depart="1072.000000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_389" type="CAV" route="route_0" depart="1075.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_390" type="CAV" route="route_1" depart="1077.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_391" type="CAV" route="route_1" depart="1081.500000" departSpeed="20.000000" color="Blue"/>
+<vehicle id="mainline_392" type="HV" route="route_0" depart="1082.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_393" type="HV" route="route_1" depart="1086.600000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_394" type="HV" route="route_0" depart="1095.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_395" type="HV" route="route_0" depart="1096.000000" departSpeed="20.000000" color="Red"/>
+<vehicle id="mainline_396" type="CAV" route="route_0" depart="1097.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_397" type="CAV" route="route_1" depart="1098.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_398" type="CAV" route="route_1" depart="1099.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_399" type="CAV" route="route_1" depart="1115.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_400" type="HV" route="route_1" depart="1135.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_401" type="HV" route="route_1" depart="1137.400000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_402" type="CAV" route="route_1" depart="1138.400000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_403" type="CAV" route="route_1" depart="1158.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_404" type="HV" route="route_1" depart="1167.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_405" type="CAV" route="route_1" depart="1168.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_406" type="HV" route="route_1" depart="1175.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_407" type="CAV" route="route_1" depart="1177.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_408" type="CAV" route="route_1" depart="1187.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_409" type="CAV" route="route_1" depart="1188.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_410" type="HV" route="route_1" depart="1195.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_411" type="CAV" route="route_1" depart="1215.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_412" type="CAV" route="route_1" depart="1221.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_413" type="CAV" route="route_1" depart="1232.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_414" type="HV" route="route_1" depart="1244.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_415" type="HV" route="route_1" depart="1249.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_416" type="HV" route="route_1" depart="1251.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_417" type="CAV" route="route_1" depart="1264.100000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_418" type="CAV" route="route_1" depart="1273.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_419" type="HV" route="route_1" depart="1275.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_420" type="CAV" route="route_1" depart="1278.900000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_421" type="CAV" route="route_1" depart="1281.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_422" type="CAV" route="route_1" depart="1290.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_423" type="CAV" route="route_1" depart="1300.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_424" type="HV" route="route_1" depart="1309.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_425" type="HV" route="route_1" depart="1329.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_426" type="HV" route="route_1" depart="1330.700000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_427" type="HV" route="route_1" depart="1337.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_428" type="CAV" route="route_1" depart="1345.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_429" type="CAV" route="route_1" depart="1356.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_430" type="CAV" route="route_1" depart="1357.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_431" type="HV" route="route_1" depart="1366.600000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_432" type="HV" route="route_1" depart="1386.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_433" type="CAV" route="route_1" depart="1388.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_434" type="CAV" route="route_1" depart="1389.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_435" type="CAV" route="route_1" depart="1390.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_436" type="HV" route="route_1" depart="1397.800000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_437" type="HV" route="route_1" depart="1399.300000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_438" type="CAV" route="route_1" depart="1408.600000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_439" type="CAV" route="route_1" depart="1414.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_440" type="CAV" route="route_1" depart="1417.000000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_441" type="HV" route="route_1" depart="1421.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_442" type="CAV" route="route_1" depart="1424.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_443" type="CAV" route="route_1" depart="1428.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_444" type="HV" route="route_1" depart="1436.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_445" type="HV" route="route_1" depart="1456.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_446" type="HV" route="route_1" depart="1457.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_447" type="CAV" route="route_1" depart="1460.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_448" type="HV" route="route_1" depart="1461.500000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_449" type="CAV" route="route_1" depart="1478.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_450" type="CAV" route="route_1" depart="1480.200000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_451" type="HV" route="route_1" depart="1485.100000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_452" type="CAV" route="route_1" depart="1489.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_453" type="CAV" route="route_1" depart="1492.500000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_454" type="HV" route="route_1" depart="1495.000000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_455" type="CAV" route="route_1" depart="1497.300000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_456" type="HV" route="route_1" depart="1499.900000" departSpeed="20.000000" color="Red"/>
+    <vehicle id="ramp_457" type="CAV" route="route_1" depart="1519.800000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_458" type="CAV" route="route_1" depart="1539.700000" departSpeed="20.000000" color="Blue"/>
+    <vehicle id="ramp_459" type="HV" route="route_1" depart="1542.800000" departSpeed="20.000000" color="Red"/>
+</routes>

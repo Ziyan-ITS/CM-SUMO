@@ -1,0 +1,12 @@
+{
+  "simulation_setup":
+  {
+    "mainline_flow": 800,
+    "ramp_flow": 500,
+    "vehicle_numbers": 230,
+    "cav_penetration": 0.6
+  },
+  "sumo_config": {"cmd": "sumo-gui",
+    "config_path": "1.sumo.cfg"
+  }
+}
